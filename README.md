@@ -2,6 +2,10 @@
 
 A responsive, beginner-friendly form builder built with React and raw CSS. This tool allows users to create custom forms by dragging and dropping components like text fields, dropdowns, tables, and file uploads. It supports conditional logic, live previews, and mobile-friendly layouts.
 
+<img width="947" src="https://github.com/user-attachments/assets/89f0b923-b034-4b89-aeac-84f6eca84769" />
+
+<img width="1428" src="https://github.com/user-attachments/assets/6504ca04-fc4d-473f-a121-c57bcfbfee7a" />
+
 ## 🚀 Features
 
 - 🧩 **Drag-and-drop interface** to build and reorder form components
