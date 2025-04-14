@@ -1,0 +1,81 @@
+.preview-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.preview-title {
+  color: purple;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.preview-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.preview-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.preview-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.preview-input,
+.preview-select {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.preview-file {
+  padding: 12px 0;
+  font-size: 16px;
+}
+
+/* Table-specific styles */
+.preview-table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
+
+.preview-table-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.preview-table-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .preview-table-row {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .preview-table-label {
+    width: 100px;
+    margin-bottom: 0;
+  }
+}
